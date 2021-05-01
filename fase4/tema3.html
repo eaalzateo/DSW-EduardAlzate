@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Título: Etiquetas sem&aacute;nticas, listas y enlaces</title>
+    <link rel="stylesheet" type="text/css" href="css/css-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+  <header id="pageHeader">
+    <h1 class="titulos">Etiquetas sem&aacute;nticas, listas y enlaces <img src="img/logo.png" align="middle" /></h1>
+    <hr />
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+
+      <li><a href="">Temas</a>
+        <ul>
+          <li><a href="tema1.html">Etiquetas semánticas</a></li>
+          <li><a href="tema2.html">Listas</a></li>
+          <li><a href="#">Enlaces</a></li>
+        </ul>
+      </li>
+
+      <li><a href="">Recursos digitales</a>
+        <ul>
+          <li><a href="recurso1.html">Recurso 1 - Etiquetas semánticas</a></li>
+          <li><a href="recurso2.html">Recurso 2 - Listas</a></li>
+          <li><a href="recurso3.html">Recurso 3 - Enlaces</a></li>
+        </ul>
+      </li>
+
+      <li><a href="">Aprendizaje</a>
+        <ul>
+          <li><a href="aprendizaje1.html">Cuestionario 1 - Etiquetas semánticas</a></li>
+          <li><a href="aprendizaje2.html">Cuestionario 2 - Listas</a></li>
+          <li><a href="aprendizaje3.html">Cuestionario 3 - Enlaces</a></li>
+        </ul>
+      </li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+
+  </header>
+  <article id="mainArticle">
+
+    <h2 class="titulos">Enlaces</h2>
+    <hr />
+
+    <p>
+      <p>Lo que caracteriza a la web como medio de comunicación es la navegación por medio de hipervínculos (links o enlaces). Esta conexión entre archivos permite al usuario elegir el sentido de la navegación.</p>
+        Los enlaces, son aquellos que nos sirven para enlazar contra otro recurso de la web. Estos se emplean con la etiqueta <b>a</b> y su atributo principal es <b>href</b>, en el cual, se encuentra la
+        ubicación del destino, el cual deseamos enlazar.
+
+        <h4>Ejemplo de enlace:</h4>
+        Ir a <a href="https://www.google.com.co" target="_blank">google.com</a>
+    </p>
+
+    <p>
+      <h4>Rutas de enlace:</h4>
+      Se llama ruta al valor que se escribe dentro del atributo <b>href=""</b> y se pueden clasificar en dos tipos:
+
+      <ul>
+        <li><b>Rutas absolutas:</b> Son las que definen la ubicación completa de un archivo en la web y empiezan desde <b>https://nombredelsitio.com/archivo.html</b></li><br />
+        <li><b>Rutas relativas: </b>Son aquellas rutas que definen la ubicación del archivo de destino en relación a la ubicación del archivo que lo está llamando.</li>
+      </ul>
+    </p>
+
+    <p>
+      <h4>Tipos de enlace:</h4>
+      <ul>
+        <li><b>Enlaces internos:</b> Son los enlaces principales de un sitio web.</li><br />
+        <li><b>Enlaces externos: </b>Son los enlaces entre diferentes sitios web. Si queremos vincular un sitio web con otro,  tenemos que indicar la ruta absoluta del sitio escribiendo la url completa que conviene copiarla del navegador. En este caso, es común usar el atributo <b>target=""</b> que nos permite abrir el enlace en una pestaña nueva.</li><br />
+        <li><b>Anclas: </b>Son enlaces hacia un punto determinado dentro de un html.</li><br />
+        <li><b>Enlaces de descarga: </b>Dentro del atributo <b>href=""</b> podemos colocar la ruta hacia cualquier tipo de archivo. Si el navegador reconoce la extensión, lo abre por ejemplo: html, jpg, png, gif, svg, pdf, etc. Pero si no lo reconoce o es un archivo comprimido (.rar, .zip), el navegador le ofrece al usuario descargarlo.</li>
+      </ul>
+    </p>
+
+    <section>
+      <h2 class="titulos">Referencias</h2>
+      <hr />
+      <p>
+        Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Recuperado de: <a href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045" target="_blank"> https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045 </a><br /><br />
+        Definición enlaces. Manual web. Etiquetas de maquetación, a. Recuperado de: <a href="http://www.manualweb.net/html/enlaces-html/" target="_blank">https://manualweb.net/</a>
+    </p>
+    </section>
+
+  </article>
+
+  <aside id="siteAside">
+    <h3 class="titulos">Universidad Nacional Abierta y a Distancia - UNAD</h3>
+    <hr />
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce="rFvtz6lw"></script>
+    <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="250" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote>
+    </div>
+  </aside>
+
+  <footer id="pageFooter">Eduard Alberto Alzate - Skype: Edwar522 - e-mail: eaalzate@unadvirtual.edu.co - 30 de marzo de 2021</footer>
+
+</body>
+</html>

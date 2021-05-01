@@ -1,0 +1,67 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "article aside"
+    "footer footer";
+  grid-template-rows: 200px 1fr 50px;
+  grid-template-columns: 1.4fr 0.4fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #96784B;
+  }
+header, footer, article, aside, div {
+  padding: 1.2em;
+  background: #ffffff url("../img/fondo.gif");;
+  box-shadow: 2px 2px 10px #666;
+  }
+
+#pageHeader {
+  grid-area: header;
+  padding: 0.2em;
+  width: 99.5%;
+  text-align: center;
+  }
+#pageFooter {
+  grid-area: footer;
+  width: 97%;
+  text-align: center;
+  }
+#mainArticle {
+  grid-area: article;
+  }
+#siteRef {
+  grid-area: ref;
+    }
+#siteAside {
+  grid-area: aside;
+  }
+#portada {
+  text-align: center;
+}
+
+hr{
+    width: 93%;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}
+
+.titulos{
+  color: #132A67;
+}
+
+@media all and (max-width: 600px) {
+  body {
+    grid-template-areas:
+      "header"
+      "article"
+      "aside"
+      "footer";
+    grid-template-rows: 1fr 1fr 1fr 70px;
+    grid-template-columns: 1fr;
+ }
+}

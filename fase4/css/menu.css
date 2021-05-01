@@ -1,0 +1,33 @@
+
+ul, ol {
+  list-style: none;
+}
+
+.menu li a {
+  background:url("../img/menu_ppal.gif");
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  align: center;
+  border: 1px solid #000;
+  font-weight: bolder;
+}
+
+.menu li a:hover {
+  background:url("../img/menu_hover.gif");
+}
+
+.menu > li {
+  float: left;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  padding: 0px 15px;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
